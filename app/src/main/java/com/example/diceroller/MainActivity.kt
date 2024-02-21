@@ -46,7 +46,6 @@ fun DiceRollerApp() {
             .wrapContentSize(Alignment.Center)
     )
 }
-
 @Composable
 fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
     var result by remember { mutableStateOf(1) }
